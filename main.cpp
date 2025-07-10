@@ -28,7 +28,12 @@ int main(int argc,char** argv)
     z=sqrte;
     cout<<"the square root of tmp " <<std::setprecision(preci) << tmp << " z ::== " <<std::setprecision(preci) << sqrte <<"\n";
     x=z*x_mgc;
+    cout<<"\n";
+    cout<<"*****************The Power is**************************************************************\n";
     cout<<"the x ::== " <<std::setprecision(preci) << x <<"\n";
+    cout<<"the validation from math.h header file is : " <<std::setprecision(preci) << sqrt(mynmb) <<"\n";
+    cout<<"*******************************************************************************************\n";
+    cout<<"\n";
     cout<<"-----------------------------------------------\n";
     cout<<"from " <<std::setprecision(preci) << mynmb << " / " <<std::setprecision(preci) << x_mgc <<" ::== " <<std::setprecision(preci) << rst <<"\n";
     tmp=(long double)rst/(long double)x;
@@ -36,7 +41,7 @@ int main(int argc,char** argv)
     tmpo=(long double)x/(long double)x_mgc;
     cout<<"from " <<std::setprecision(preci) << x << " / " <<std::setprecision(preci) << x_mgc <<" ::== " <<std::setprecision(preci) << tmpo <<"\n";
     cout<<"\n";
-    cout<<"the validation from math.h header file is : " <<std::setprecision(preci) << sqrt(mynmb) <<"\n";
+
 
     return 0;
 }
