@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1752135681 source:/home/acherontas/codeblock/sqrt_with_9_only_arm64/main.cpp
+	<iostream>
+	<math.h>
+	<iomanip>
+

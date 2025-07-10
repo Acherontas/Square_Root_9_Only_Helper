@@ -12,9 +12,10 @@ int main(int argc,char** argv)
     long double tmp,tmpo,rst;
     long double sqrte;
     int preci;
-    cout<<"ur number and the precision \n";
+    cout<<"ur number  the precision 9 or 99 or 990 or .. \n";
     mynmb=stoll(argv[1]);
     preci=stoi(argv[2]);
+    x_mgc=stoi(argv[3]);
     tmp=(long double)mynmb/(long double)x_mgc;
     rst=tmp;
 
