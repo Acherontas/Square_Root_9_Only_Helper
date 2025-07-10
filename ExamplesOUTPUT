@@ -46,3 +46,51 @@ from 309.444444444 / 52.7730992078 ::== 5.86367768976
 from 52.7730992078 / 9 ::== 5.86367768976
 
 the validation from math.h header file is : 52.7730992078
+
+//Example 4
+acherontas@raspberrypi:~/codeblock/sqrt_with_9_only_arm64/bin/Debug $ ./sqrt_with_9_only_arm64 78895621 12 9999
+ur number  the precision 9 or 99 or 990 or .. 
+
+from 78895621 / 9999 ::== 7890.35113511
+from 7890.35113511 / 9999 ::== 0.789114024914
+the square root of tmp 0.789114024914 z ::== 0.888320901991
+the x ::== 8882.32069901
+-----------------------------------------------
+from 78895621 / 9999 ::== 7890.35113511
+from 7890.35113511 / 8882.32069901 ::== 0.888320901991
+from 8882.32069901 / 9999 ::== 0.888320901991
+
+the validation from math.h header file is : 8882.32069901
+
+
+//Example 5
+acherontas@raspberrypi:~/codeblock/sqrt_with_9_only_arm64/bin/Debug $ ./sqrt_with_9_only_arm64 78895621 12 99999
+ur number  the precision 9 or 99 or 990 or .. 
+
+from 78895621 / 99999 ::== 788.964099641
+from 788.964099641 / 99999 ::== 0.00788971989361
+the square root of tmp 0.00788971989361 z ::== 0.088824095231
+the x ::== 8882.32069901
+-----------------------------------------------
+from 78895621 / 99999 ::== 788.964099641
+from 788.964099641 / 8882.32069901 ::== 0.088824095231
+from 8882.32069901 / 99999 ::== 0.088824095231
+
+the validation from math.h header file is : 8882.32069901
+
+
+//Example 6
+acherontas@raspberrypi:~/codeblock/sqrt_with_9_only_arm64/bin/Debug $ ./sqrt_with_9_only_arm64 78895621 12 999
+ur number  the precision 9 or 99 or 990 or .. 
+
+from 78895621 / 999 ::== 78974.5955956
+from 78974.5955956 / 999 ::== 79.0536492448
+the square root of tmp 79.0536492448 z ::== 8.89121191092
+the x ::== 8882.32069901
+-----------------------------------------------
+from 78895621 / 999 ::== 78974.5955956
+from 78974.5955956 / 8882.32069901 ::== 8.89121191092
+from 8882.32069901 / 999 ::== 8.89121191092
+
+the validation from math.h header file is : 8882.32069901
+
